@@ -1,4 +1,10 @@
-obj-m := chr_dev_drv.o
+obj-m := ioregion.o
+
+#obj-m := ioport.o
+
+#obj-m := iomem_region.o
+#obj-m := test.o
+
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
